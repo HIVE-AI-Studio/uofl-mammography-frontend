@@ -9,10 +9,7 @@ function Layout(props) {
         <div className={classes.root}>
             <div className={classes.topBar}>
                 <div className={classes.topBarLeft}>
-                    <img src="/UofLImg.png" alt="uoflimg"/>
-                </div>
-                <div className={classes.topBarRight}>
-                    <h1>University of Louisville</h1>
+                    <img src="/UL_whiteonred.png" height={100} alt="uoflimg"/>
                 </div>
             </div>
             <div>

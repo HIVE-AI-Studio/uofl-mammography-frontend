@@ -2,13 +2,15 @@ import Environment from "../environment";
 import Api from "./ApiService";
 
 export const ImageService = {
-    sendImgPOST: async (img = null) => {
+    sendImgPOST: async (img = null, email = "") => {
       const axios = require('axios').default;
       // console.log("Al ImageService llega")
-      // console.log(img);
+      console.log(email);
       let url = `${Environment.api}img/`;
+      console.log(url);
       const formData = new FormData();
       formData.append("file", img);
+      formData.append("email", email);
       const getResult = await axios.post(`${url}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'

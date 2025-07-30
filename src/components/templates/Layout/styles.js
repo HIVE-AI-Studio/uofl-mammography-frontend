@@ -10,13 +10,14 @@ const useStyles = makeStyles((theme) => ({
     topBar: {
         display: "flex",
         justifyContent: "center",
-        backgroundColor: "rgb(230,100,100)",
+        backgroundColor: "rgb(173,0,0)",
         width: "100vw",
-        height: "15%",
+        // height: "15%",
     },
     topBarLeft: {
         display: "flex",
-        width: "20%",
+        // width: "20%",
+	alignItems: "center",
         // backgroundColor: "rgb(100,100,180)",
         // width: "10",
     },

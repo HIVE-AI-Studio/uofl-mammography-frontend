@@ -1,0 +1,81 @@
+
+> react_server@0.1.0 start
+> chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && react-scripts start
+
+(node:59715) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:59715) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at Generator.next (<anonymous>)
+    at new Promise (<anonymous>)
+asset static/js/bundle.js 46.1 KiB [emitted] (name: main) 1 related asset
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 190 bytes [emitted]
+runtime modules 27.1 KiB 9 modules
+modules with errors 156 bytes [errors]
+  ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js 39 bytes [built] [code generated] [1 error]
+  ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&reconnect=10 39 bytes [built] [code generated] [1 error]
+  ./node_modules/webpack/hot/dev-server.js 39 bytes [built] [code generated] [1 error]
+  ./src/index.js 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:130:10)
+    at filename (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:102:23)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:128:39
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:3:103)
+    at _next (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:194)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:364
+    at new Promise (<anonymous>)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:97
+
+ERROR in ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&reconnect=10
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:130:10)
+    at filename (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:102:23)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:128:39
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:3:103)
+    at _next (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:194)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:364
+    at new Promise (<anonymous>)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:97
+
+ERROR in ./node_modules/webpack/hot/dev-server.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:130:10)
+    at filename (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:102:23)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:128:39
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:3:103)
+    at _next (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:194)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:364
+    at new Promise (<anonymous>)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:97
+
+ERROR in ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:130:10)
+    at filename (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:102:23)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:128:39
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:3:103)
+    at _next (/home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:194)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:364
+    at new Promise (<anonymous>)
+    at /home/queen/uofl-mammography-frontend/node_modules/babel-loader/lib/cache.js:5:97
+
+webpack 5.70.0 compiled with 4 errors in 9259 ms
