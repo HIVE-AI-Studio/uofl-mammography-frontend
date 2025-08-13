@@ -17,6 +17,9 @@ function Layout(props) {
                         <img src="/HIVE_logo_transparent_background.png" height={100} alt="HIVE logo"/>
                     </div>
                     
+                    <div className={classes.topBarRight}>
+                        <h1>HIVE Mammography Image Processing</h1>
+                    </div>
                 </div>
             </div>
             <div>
