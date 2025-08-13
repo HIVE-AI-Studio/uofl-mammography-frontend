@@ -8,9 +8,12 @@ function Layout(props) {
     return (
         <div className={classes.root}>
             <div className={classes.topBar}>
-                <div className={classes.topBarLeft}>
+                <div className={classes.infoBar}>
+                    <span className={classes.hiveAddress}>1601 S Floyd St, Louisville, KY 40208</span>
+                </div> 
+                {/* <div className={classes.topBarLeft}>
                     <img src="/UL_whiteonred.png" height={100} alt="uoflimg"/>
-                </div>
+                </div> */}
             </div>
             <div>
                 

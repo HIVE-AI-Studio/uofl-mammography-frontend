@@ -4,13 +4,13 @@ const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "rgb(230,230,230)",
+        backgroundColor: "rgba(159, 112, 112, 1)",
         height: "100vh",
     },
     topBar: {
         display: "flex",
         justifyContent: "center",
-        backgroundColor: "rgb(173,0,0)",
+        // backgroundColor: "rgb(173,0,0)",
         width: "100vw",
         // height: "15%",
     },
@@ -27,6 +27,15 @@ const useStyles = makeStyles((theme) => ({
         width: "40%",
         alignItems: "center",
     },
+    infoBar: {
+        backgroundColor: "#FDC407",
+        height: "50px",
+    },
+    hiveAddress: {
+        color: "white",
+        paddingLeft: '20px', 
+        paddingRight: '20px'
+    }
 }));
 
 export default useStyles;
