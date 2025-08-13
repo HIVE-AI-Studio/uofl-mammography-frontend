@@ -15,8 +15,9 @@ const useStyles = makeStyles((theme) => ({
         // height: "15%",
     },
     topBarLeft: {
-        display: "flex",
+        //display: "flex",
         width: "100px",
+        paddingLeft: '20px',
 	    // alignItems: "center",
         // backgroundColor: "rgb(100,100,180)",
         // width: "10",
@@ -44,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         alignItems: 'center',
         width: '100vw',
+        backgroundColor: 'white',
     }
 }));
 
