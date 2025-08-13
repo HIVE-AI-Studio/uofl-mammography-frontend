@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         alignItems: "center",
         color: "#FDC407",
-
+        flexGrow: 1
     },
     infoBar: {
         display: "flex",
