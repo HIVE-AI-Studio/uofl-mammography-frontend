@@ -54,8 +54,8 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         left: "50%",
         transform: "translateX(-50%)",
-        paddingLeft: "100px",   // equal or slightly more than logo width
-        paddingRight: "100px",  // optional: balance spacing on right side
+        paddingLeft: "110px",   // equal or slightly more than logo width
+        paddingRight: "110px",  // optional: balance spacing on right side
         whiteSpace: "nowrap",   // prevent wrapping if space is tight
         margin: 0,
         color: "#FDC407",
