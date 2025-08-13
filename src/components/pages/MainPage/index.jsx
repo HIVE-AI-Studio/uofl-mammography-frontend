@@ -13,6 +13,8 @@ function MainPage(){
       .then((data)=>{
         if (data.status !== 200){
           console.warn(data);
+        } else {
+          alert("Your Image had uploaded successfully!");
         }
       })
       .catch((e)=>{
