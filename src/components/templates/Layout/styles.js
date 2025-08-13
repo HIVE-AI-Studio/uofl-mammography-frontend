@@ -28,16 +28,18 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     infoBar: {
+        display: "flex",
+        alignItems: 'center',
         backgroundColor: "#FDC407",
         height: "40px",
         width: "100vw"
     },
     hiveAddress: {
-        display: "flex",
+        
         color: "white",
         paddingLeft: '20px', 
         paddingRight: '20px',
-        alignItems: 'center'
+        
     }
 }));
 
