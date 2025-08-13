@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     },
     infoBar: {
         backgroundColor: "#FDC407",
-        height: "4px",
+        height: "40px",
         width: "100vw"
     },
     hiveAddress: {
