@@ -13,7 +13,7 @@ function Layout(props) {
                     <div className={classes.hiveInfo}>tech@hivehub.org</div>
                 </div> 
                 <div className={classes.headerbar}>
-                    <div className={classes.headerbar}>
+                    <div className={classes.topBarLeft}>
                         <img src="/HIVE_logo_transparent_background.png" height={100} alt="HIVE logo"/>
                     </div>
                     

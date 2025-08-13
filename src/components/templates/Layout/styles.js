@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         // height: "15%",
     },
     topBarLeft: {
-        //display: "flex",
+        display: "flex",
         width: "100px",
         paddingLeft: '20px',
 	    // alignItems: "center",
