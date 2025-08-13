@@ -24,8 +24,6 @@ function Layout(props) {
                 </div>
             </div>
             <div>
-                
-                <h1>Images Upload Service</h1>
                 <div>
                     {props.children}
                 </div>
