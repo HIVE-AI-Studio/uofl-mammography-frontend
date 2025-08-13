@@ -34,8 +34,7 @@ const useStyles = makeStyles((theme) => ({
         height: "40px",
         width: "100vw"
     },
-    hiveAddress: {
-        
+    hiveInfo: {
         color: "white",
         paddingLeft: '20px', 
         paddingRight: '20px',
