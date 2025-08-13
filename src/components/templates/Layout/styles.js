@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     topBarRight: {
         display: "flex",
         // backgroundColor: "rgb(100,180,100)",
-        width: "40%",
+        //width: "40%",
         justifyContent: "center",
         alignItems: "center",
         color: "#FDC407",
