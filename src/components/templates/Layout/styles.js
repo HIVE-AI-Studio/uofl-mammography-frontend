@@ -8,16 +8,16 @@ const useStyles = makeStyles((theme) => ({
         height: "100vh",
     },
     topBar: {
-        display: "flex",
-        justifyContent: "center",
+        // display: "flex",
+        // justifyContent: "center",
         // backgroundColor: "rgb(173,0,0)",
         width: "100vw",
         // height: "15%",
     },
     topBarLeft: {
         display: "flex",
-        // width: "20%",
-	alignItems: "center",
+        width: "100px",
+	    // alignItems: "center",
         // backgroundColor: "rgb(100,100,180)",
         // width: "10",
     },
@@ -38,7 +38,12 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         paddingLeft: '20px', 
         paddingRight: '20px',
-        
+        fontWeight: 'bold'
+    },
+    headerBar: {
+        display: "flex",
+        alignItems: 'center',
+        width: '100vw',
     }
 }));
 
