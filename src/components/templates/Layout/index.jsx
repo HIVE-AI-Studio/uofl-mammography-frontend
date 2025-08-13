@@ -24,6 +24,7 @@ function Layout(props) {
                 </div>
             </div>
             <div>
+                <br/>
                 <div>
                     {props.children}
                 </div>
