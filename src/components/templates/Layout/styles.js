@@ -4,7 +4,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "rgba(159, 112, 112, 1)",
+        backgroundColor: "#EEEEF4",
         height: "100vh",
     },
     topBar: {
@@ -49,6 +49,20 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         width: '100vw',
         backgroundColor: 'white',
+    },
+    centeredTitle: {
+        position: "absolute",
+        left: "50%",
+        transform: "translateX(-50%)",
+        paddingLeft: "100px",   // equal or slightly more than logo width
+        paddingRight: "100px",  // optional: balance spacing on right side
+        whiteSpace: "nowrap",   // prevent wrapping if space is tight
+        margin: 0,
+        color: "#FDC407",
+        textAlign: "center",
+        maxWidth: "calc(100% - 200px)", // prevents overflow
+        overflow: "hidden",
+        textOverflow: "ellipsis",
     }
 }));
 
